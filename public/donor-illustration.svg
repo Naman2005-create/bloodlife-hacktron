@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0" y1="0" x2="800" y2="400">
+      <stop offset="0%" stop-color="#fff5f5"/>
+      <stop offset="100%" stop-color="#ffe5e5"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bg-gradient)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="50" fill="#d32f2f" opacity="0.1"/>
+  <circle cx="700" cy="300" r="70" fill="#d32f2f" opacity="0.1"/>
+  
+  <!-- Main Blood Drop with shine -->
+  <path d="M400 100C400 100 500 200 500 300C500 400 450 450 400 450C350 450 300 400 300 300C300 200 400 100 400 100Z" fill="#d32f2f"/>
+  <path d="M400 100C400 100 500 200 500 300C500 400 450 450 400 450C350 450 300 400 300 300C300 200 400 100 400 100Z" fill="url(#paint0_radial)" fill-opacity="0.3"/>
+  
+  <!-- Doctor/Nurse figure -->
+  <circle cx="400" cy="200" r="40" fill="#fff"/>
+  <path d="M380 240C380 240 400 260 420 240" stroke="#333" stroke-width="3"/>
+  <path d="M380 260C380 260 400 280 420 260" stroke="#333" stroke-width="3"/>
+  
+  <!-- Medical cross -->
+  <path d="M400 180L400 220" stroke="#d32f2f" stroke-width="4"/>
+  <path d="M380 200L420 200" stroke="#d32f2f" stroke-width="4"/>
+  
+  <!-- Floating hearts -->
+  <path d="M500 150C500 150 510 140 520 150C530 160 500 180 500 180C500 180 470 160 480 150C490 140 500 150 500 150Z" fill="#d32f2f" opacity="0.8"/>
+  <path d="M300 250C300 250 310 240 320 250C330 260 300 280 300 280C300 280 270 260 280 250C290 240 300 250 300 250Z" fill="#d32f2f" opacity="0.8"/>
+  
+  <!-- Pulse lines -->
+  <path d="M200 200L250 200" stroke="#d32f2f" stroke-width="3" stroke-dasharray="5 5"/>
+  <path d="M200 220L250 220" stroke="#d32f2f" stroke-width="3" stroke-dasharray="5 5"/>
+  <path d="M200 240L250 240" stroke="#d32f2f" stroke-width="3" stroke-dasharray="5 5"/>
+  
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(400 300) rotate(90) scale(150)">
+      <stop offset="0.5" stop-color="white"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg> 
